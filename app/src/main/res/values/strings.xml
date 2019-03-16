@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TareaSemana2</string>
+    <string name="inputHintNombre">Nombre Completo</string>
+    <string name="inputHintTelefono">Teléfono</string>
+    <string name="inputHintEmail">Email</string>
+    <string name="inputHintDescContacto">Descripción Contacto</string>
+</resources>

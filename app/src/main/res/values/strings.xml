@@ -5,4 +5,10 @@
     <string name="inputHintEmail">Email</string>
     <string name="inputHintDescContacto">Descripción Contacto</string>
     <string name="mensajeBoton">Siguiente</string>
+    <string name="mensajeConfirmacion">Confirmar Datos</string>
+    <String name="nombre">Nombre completo</String>
+    <String name="fechaNac">Fecha Nacimiento:</String>
+    <String name="telefono">Tel:</String>
+    <String name="mail">Mail:</String>
+    <String name="descripcion">Descripción:</String>
 </resources>

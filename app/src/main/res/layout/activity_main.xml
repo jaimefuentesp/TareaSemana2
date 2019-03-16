@@ -26,6 +26,13 @@
 
         </android.support.design.widget.TextInputLayout>
 
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false">
+        </DatePicker>
+
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -50,11 +57,6 @@
 
         </android.support.design.widget.TextInputLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/inputHintDescContacto"/>
-
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -62,12 +64,18 @@
             <android.support.design.widget.TextInputEditText
                 android:id="@+id/txtInputDescContacto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:hint="@string/inputHintDescContacto"/>
 
         </android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
 
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:theme="@style/botonJames"
+        android:text="@string/mensajeBoton"/>
 
 </FrameLayout>

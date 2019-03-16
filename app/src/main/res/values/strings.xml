@@ -4,4 +4,5 @@
     <string name="inputHintTelefono">Teléfono</string>
     <string name="inputHintEmail">Email</string>
     <string name="inputHintDescContacto">Descripción Contacto</string>
+    <string name="mensajeBoton">Siguiente</string>
 </resources>

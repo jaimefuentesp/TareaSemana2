@@ -1,14 +1,16 @@
 <resources>
     <string name="app_name">TareaSemana2</string>
+    <string name="inputHintFecha">Fecha Nacimiento</string>
     <string name="inputHintNombre">Nombre Completo</string>
     <string name="inputHintTelefono">Teléfono</string>
     <string name="inputHintEmail">Email</string>
     <string name="inputHintDescContacto">Descripción Contacto</string>
     <string name="mensajeBoton">Siguiente</string>
     <string name="mensajeConfirmacion">Confirmar Datos</string>
-    <String name="nombre">Nombre completo</String>
-    <String name="fechaNac">Fecha Nacimiento:</String>
-    <String name="telefono">Tel:</String>
-    <String name="mail">Mail:</String>
-    <String name="descripcion">Descripción:</String>
+    <string name="nombre">Nombre completo</string>
+    <string name="fechaNac">Fecha Nacimiento:</string>
+    <string name="telefono">Tel:</string>
+    <string name="mail">Mail:</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="editarDatos">Editar Datos</string>
 </resources>

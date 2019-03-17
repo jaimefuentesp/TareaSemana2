@@ -14,33 +14,103 @@
         android:layout_centerHorizontal="true"/>
 
     <LinearLayout
+        android:id="@+id/lnlFormulario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtConfirmacion"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
         
         <TextView
+            android:id="@+id/lnlConfirNombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/"
+            android:text="@string/nombre"
             />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fechaNac"
+                />
+            <TextView
+                android:id="@+id/lnlConfirFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fechaNac"
+                />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="nombre"
+                android:text="@string/telefono"
                 />
             <TextView
+                android:id="@+id/lnlConfirTelefono"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="nombre"
+                android:text="@string/telefono"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mail"
+                />
+            <TextView
+                android:id="@+id/lnlConfirMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mail"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcion"
+                />
+            <TextView
+                android:id="@+id/lnlConfirDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcion"
                 />
         </LinearLayout>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/botonEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editarDatos"
+        android:layout_below="@+id/lnlFormulario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:theme="@style/botonJames"
+        />
 
 </RelativeLayout>

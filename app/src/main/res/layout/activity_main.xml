@@ -26,12 +26,23 @@
 
         </android.support.design.widget.TextInputLayout>
 
-        <DatePicker
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:datePickerMode="spinner"
-            android:calendarViewShown="false">
-        </DatePicker>
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inputHintFecha"/>
+            <DatePicker
+                android:id="@+id/dpFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false">
+            </DatePicker>
+        </LinearLayout>
+
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -72,6 +83,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/botonSiguiente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
